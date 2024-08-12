@@ -1,0 +1,6 @@
+create database Tasks
+use Tasks;
+create table users ( id int primary key auto_increment, username varchar(50), status varchar(25), due date date, priority varchar(20), description varchar(200) );
+>insert into users values(default,'Minal','minal@gmail.com','Minal@123',default);
+
+select * from users;
